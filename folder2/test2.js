@@ -13,3 +13,7 @@ function getMid(arr) {
 function getFirst(arr) {
   return arr[0];
 }
+
+function getAny(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
