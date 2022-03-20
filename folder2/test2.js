@@ -13,10 +13,14 @@ function getMid(arr) {
 function getFirst(arr) {
   return arr[0];
 }
+function getLast(arr) {
+  return arr[arr.length - 1];
+}
 
 function getAny(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
-function getLast(arr) {
-  return arr[arr.length - 1];
+
+function getLength(arr) {
+  return arr.length;
 }
