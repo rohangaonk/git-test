@@ -2,6 +2,6 @@ function findSquare(x) {
   return x * x;
 }
 
-function multby5(x) {
+function multiplyby5(x) {
   return x * 5;
 }
