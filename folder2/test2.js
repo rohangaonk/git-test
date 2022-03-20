@@ -17,3 +17,6 @@ function getFirst(arr) {
 function getAny(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
+function getLast(arr) {
+  return arr[arr.length - 1];
+}
