@@ -9,3 +9,7 @@ function getMin(arr) {
 function getMid(arr) {
   return arr[arr.length / 2];
 }
+
+function getFirst(arr) {
+  return arr[0];
+}
